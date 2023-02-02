@@ -46,12 +46,12 @@ const Home = () => {
               Cookies.get("nutritionist_token_cookie") === undefined &&
               <div className="d-flex justify-content-between col-sm-12 col-md-8 col-lg-12 col-xl-8">
                 <div className="d-flex mx-1">
-                  <Link to="/signup-nutritionist" className="btn-lg primary-button">
+                  <Link to="/signup-nutritionist" className="btn primary-button">
                     Je suis un nutritioniste
                   </Link>
                 </div>
                 <div className="d-flex mx-1">
-                  <Link to="/signup-patient" className="btn-lg primary-button">
+                  <Link to="/signup-patient" className="btn primary-button">
                     Je suis un patient
                   </Link>
                 </div>
@@ -115,7 +115,7 @@ const Home = () => {
               un bloc-notes pour rédiger puis partager les compte-rendu de rendez-vous avec vos patients,
               un journal où rédiger des articles pour valoriser votre expertise aurpès de vos patients et bien plus encore ...
             </h6>
-            <Link to="/exemple/tableau-de-bord" className=" my-3 primary-button btn-sm">
+            <Link to="/exemple/tableau-de-bord" className=" my-3 primary-button btn">
               Découvrir
             </Link>
           </div>
