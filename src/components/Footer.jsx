@@ -47,10 +47,10 @@ const Footer = () => {
 
       <div className="text-center copyright">
         © 2021 Copyright:
-        <a className="text-reset fw-bold" href="https://follownut.herokuapp.com/">
+        <p className="text-reset fw-bold">
           {" "}
           Follownut.com
-        </a>
+        </p>
       </div>
     </footer>
   );

@@ -90,7 +90,6 @@ const PatientEditForm = ({patientData, nutritionists}) => {
               <option value='1'>Homme</option>
               <option value='2'>Femme</option>
             </select>
-
           </div>
           <div className="col-md-6">
             <label className="labels">Date de naissance</label>

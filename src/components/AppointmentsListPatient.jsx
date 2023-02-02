@@ -35,7 +35,7 @@ const AppointmentsListPatient = ({ filteredAppointments, setOpenModal }) => {
               </tr>
             </thead>
             <tbody>
-            {
+              {
                 appointments.map((appointment) => {
                   return (
                     <tr>

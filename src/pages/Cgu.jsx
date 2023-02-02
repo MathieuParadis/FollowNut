@@ -1,11 +1,11 @@
-const Cgu = () => {
+const Cgu = ({url = 'http://localhost:3000/'}) => {
   return (
     <div className='cgu'>
       <h1>Conditions générales d'utilisation du site FOLLOWNUT'</h1>
 
       <h2>ARTICLE 1 : Objet</h2>
 
-      <p>Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique de l’utilisation du site https://follownut.herokuapp.com/ et de ses services.</p>
+      <p>Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique de l’utilisation du site {url} et de ses services.</p>
 
       <p>Ce contrat est conclu entre :</p>
 
@@ -27,7 +27,7 @@ const Cgu = () => {
 
       <p>Pour les personnes physiques : </p>
 
-      <p>Le site https://follownut.herokuapp.com/ est édité par [nom et prénom du responsable], domiciliée nulle part.</p>
+      <p>Le site {url} est édité par [nom et prénom du responsable], domiciliée nulle part.</p>
 
 
 
@@ -47,7 +47,7 @@ const Cgu = () => {
 
       <p>Le mot de passe de l’Utilisateur doit rester secret. En cas de divulgation de mot de passe, l’Éditeur décline toute responsabilité.</p>
 
-      <p>L’Utilisateur assume l’entière responsabilité de l’utilisation qu’il fait des informations et contenus présents sur le site https://follownut.herokuapp.com/.</p>
+      <p>L’Utilisateur assume l’entière responsabilité de l’utilisation qu’il fait des informations et contenus présents sur le site {url}.</p>
 
       <p>Tout usage du service par l'Utilisateur ayant directement ou indirectement pour conséquence des dommages doit faire l'objet d'une indemnisation au profit du site.</p>
 
@@ -63,13 +63,13 @@ const Cgu = () => {
 
       <p>De même, la responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers.</p>
 
-      <p>Le site https://follownut.herokuapp.com/ s'engage à mettre en œuvre tous les moyens nécessaires pour garantir la sécurité et la confidentialité des données. Toutefois, il n’apporte pas une garantie de sécurité totale.</p>
+      <p>Le site {url} s'engage à mettre en œuvre tous les moyens nécessaires pour garantir la sécurité et la confidentialité des données. Toutefois, il n’apporte pas une garantie de sécurité totale.</p>
 
       <p>L’Éditeur se réserve la faculté d’une non-garantie de la fiabilité des sources, bien que les informations diffusées su le site soient réputées fiables.</p>
 
       <h2>ARTICLE 6 : Propriété intellectuelle</h2>
 
-      <p>Les contenus du site https://follownut.herokuapp.com/ (logos, textes, éléments graphiques, vidéos, etc.) son protégés par le droit d’auteur, en vertu du Code de la propriété intellectuelle.</p>
+      <p>Les contenus du site {url} (logos, textes, éléments graphiques, vidéos, etc.) son protégés par le droit d’auteur, en vertu du Code de la propriété intellectuelle.</p>
 
       <p>L’Utilisateur devra obtenir l’autorisation de l’éditeur du site avant toute reproduction, copie ou publication de ces différents contenus.</p>
 
@@ -86,7 +86,7 @@ const Cgu = () => {
 
       <p>L’adresse électronique (e-mail) de l’utilisateur pourra notamment être utilisée par le site [nom de votre site] pour la communication d’informations diverses et la gestion du compte.</p>
 
-      <p>https://follownut.herokuapp.com/ garantie le respect de la vie privée de l’utilisateur, conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.</p>
+      <p>{url} garantie le respect de la vie privée de l’utilisateur, conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.</p>
 
 
       <p>En vertu des articles 39 et 40 de la loi en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit via :</p>
@@ -98,14 +98,14 @@ const Cgu = () => {
 
       <h2>ARTICLE 8 : Liens hypertextes</h2>
 
-      <p>Les domaines vers lesquels mènent les liens hypertextes présents sur le site n’engagent pas la responsabilité de l’Éditeur de https://follownut.herokuapp.com/, qui n’a pas de contrôle sur ces liens.</p>
+      <p>Les domaines vers lesquels mènent les liens hypertextes présents sur le site n’engagent pas la responsabilité de l’Éditeur de {url}, qui n’a pas de contrôle sur ces liens.</p>
 
-      <p>Il est possible pour un tiers de créer un lien vers une page du site https://follownut.herokuapp.com/ sans autorisation expresse de l’éditeur.</p>
+      <p>Il est possible pour un tiers de créer un lien vers une page du site {url} sans autorisation expresse de l’éditeur.</p>
 
 
       <h2>ARTICLE 9 : Évolution des conditions générales d’utilisation</h2>
 
-      <p>Le site https://follownut.herokuapp.com/ se réserve le droit de modifier les clauses de ces conditions générales d’utilisation à tout moment et sans justification.</p>
+      <p>Le site {url} se réserve le droit de modifier les clauses de ces conditions générales d’utilisation à tout moment et sans justification.</p>
 
 
       <h2>ARTICLE 10 : Durée du contrat</h2>

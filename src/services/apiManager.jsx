@@ -37,7 +37,7 @@ import { fetchPatientsFailure, fetchPatientsRequest, fetchPatientsSuccess } from
 
 
 
-const baseUrl = "https://follownut-back.herokuapp.com";
+const baseUrl = "http://localhost:3000";
 
 // ------------------------------------------------------------------------------------------
 // -------------------- BELOW ARE ALL THE NUTRITIONIST RELATED FUNCTIONS --------------------

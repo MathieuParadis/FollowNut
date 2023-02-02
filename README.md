@@ -13,7 +13,7 @@ Patient: id `audrey.gergo@yopmail.com` pwd `azerty123`
 </br></br>
 
 <p align="center" >
-  <a href="https://follownut.herokuapp.com/"><img src="https://github.com/MathieuParadis/follownut_front/blob/master/src/assets/logos/baniere.png" alt="banniere_followNut"/></a>
+  <img src="https://github.com/MathieuParadis/follownut_front/blob/master/src/assets/logos/baniere.png" alt="banniere_followNut"/>
 </p>
 
 
@@ -62,25 +62,15 @@ FollowNut' stands in the middle, i.e. a user friendly and affordable application
 
 
 ## FollowNut Backend:
-* [Git repository](https://github.com/XabAyca/follownut_back)
-
-Hereafter a few links to our production back end
-* [Patients](https://follownut-back.herokuapp.com/api/v1/patients)
-* [Nutritionists](https://follownut-back.herokuapp.com/api/v1/nutritionists)
-* [Appointments](https://follownut-back.herokuapp.com/api/v1/appointments)
-* [Logbooks](https://follownut-back.herokuapp.com/api/v1/logbooks)
-* [Articles](https://follownut-back.herokuapp.com/api/v1/articles)
-
+* [Git repository](https://github.com/MathieuParadis/follownut_back)
 
 ## How to use it:
- - In development, clone the repository on your machine, and run:
+Run [backend](https://github.com/MathieuParadis/follownut_back) at following address: http://localhost:3000/
+
+Then, clone the repository on your machine, and run:
   ```
   npm install
   npm start
   ```
-  
-  Then, access the app in your browser at http://localhost:3000/ 
 
- - In production, go to the [FollowNut'](https://follownut.herokuapp.com/) and enjoy the experience
-
-
+Then, access the app in your browser at http://localhost:3001/
