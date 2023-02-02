@@ -67,10 +67,17 @@ FollowNut' stands in the middle, i.e. a user friendly and affordable application
 ## How to use it:
 Run [backend](https://github.com/MathieuParadis/follownut_back) at following address: http://localhost:3000/
 
-Then, clone the repository on your machine, and run:
+Then, clone the repository on your machine, and, depending on your node version, run:
   ```
   npm install
   npm start
   ```
+
+  or
+  ```
+  npm install
+  npm run dev
+  ```
+
 
 Then, access the app in your browser at http://localhost:3001/
