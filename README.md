@@ -1,8 +1,4 @@
 # Welcome on FollowNut', the best follow up app for nutritionists and patients, on the market
-
-## For test you can connect as:
-Nutritionist: id `marie-delarue@yopmail.com` pwd `azerty123`   
-Patient: id `audrey.gergo@yopmail.com` pwd `azerty123`   
    
 <div>
   <p align="center" >
@@ -13,7 +9,7 @@ Patient: id `audrey.gergo@yopmail.com` pwd `azerty123`
 </br></br>
 
 <p align="center" >
-  <img src="https://github.com/MathieuParadis/follownut_front/blob/master/src/assets/logos/baniere.png" alt="banniere_followNut"/>
+  <img src="https://github.com/MathieuParadis/follownut/blob/master/src/assets/logos/baniere.png" alt="banniere_followNut"/>
 </p>
 
 
