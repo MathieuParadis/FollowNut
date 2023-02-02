@@ -8,11 +8,6 @@
 </div>
 </br></br>
 
-<p align="center" >
-  <img src="https://github.com/MathieuParadis/follownut/blob/master/src/assets/logos/baniere.png" alt="banniere_followNut"/>
-</p>
-
-
 
 ## Description :
 FollowNut' is a follow up application for nutritionists and their patients. 
